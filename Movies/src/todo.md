@@ -1,0 +1,10 @@
+STATE
+    topRatedMovies = [],
+    upcomingMovies = [],
+    nowPlayingMovies = [],
+    popularMovies = [],
+    popularTvShoes = [],
+    topRatedShows = [],
+    onTheAirTvShows= [],
+    airingTodayTvShows = [],
+    popularPeople = [],
