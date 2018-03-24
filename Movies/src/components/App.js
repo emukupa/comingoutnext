@@ -10,6 +10,7 @@ import './App.css';
 
 class App extends React.Component {
   render() {
+    // console.log('we got movies', this.props)    
     return (
       <div className="App">
         <Header />

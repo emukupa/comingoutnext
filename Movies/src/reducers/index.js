@@ -11,10 +11,9 @@ const initState = {
 export default (state = initState, action) => {
     switch(action.type) {
         case FETCHING: 
-        console.log('fetching', FETCHING);
             return { ...state, isFetching: true };
         case FETCHED:
-            return { ...state, isFetching: false, isFetched: true };
+            return { ...state, isFetching: false, isFetched: true, upcomingMovies: action.movies };
         case ERROR: 
             return { ...state, error: action.movieError }
         default:
